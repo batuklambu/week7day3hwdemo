@@ -22,7 +22,6 @@
   border: 2px solid red;
   margin: 4px;
   padding: 5px;
-
   }
 
 .header{
@@ -56,7 +55,7 @@ padding: 5px;
 
 }
 .employee-info{
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   padding: 5px;
   height: 84%;
   overflow: hidden;
@@ -64,7 +63,7 @@ padding: 5px;
 
 .employeelistitem{
   display:flex;
-  align-items:center;
+  flex-wrap: wrap;
   justify-content: space-around;
   height: 15%;
   border: 1px solid purple;
